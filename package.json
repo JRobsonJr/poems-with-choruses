@@ -1,0 +1,40 @@
+{
+  "name": "poems-with-choruses",
+  "description": "Personal blog by Robson Junior.",
+  "version": "0.0.1",
+  "author": "Robson Junior <jrobsonjr16@gmail.com>",
+  "dependencies": {
+    "gatsby": "^2.15.20",
+    "gatsby-image": "^2.2.20",
+    "gatsby-plugin-manifest": "^2.2.18",
+    "gatsby-plugin-offline": "^3.0.8",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
+    "gatsby-plugin-react-helmet": "^3.1.8",
+    "gatsby-plugin-sharp": "^2.2.25",
+    "gatsby-remark-copy-linked-files": "^2.1.20",
+    "gatsby-remark-images": "^3.1.23",
+    "gatsby-source-filesystem": "^2.1.26",
+    "gatsby-transformer-remark": "^2.6.24",
+    "gatsby-transformer-sharp": "^2.2.16",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1",
+    "sharp": "^0.23.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JRobsonJr/poems-with-choruses"
+  }
+}
