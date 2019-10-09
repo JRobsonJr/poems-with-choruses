@@ -19,6 +19,11 @@ module.exports = {
                         subsets: [`latin`, `latin-ext`],
                         variants: [`700`, `700i`],
                     },
+                    {
+                        family: `Nunito Sans`,
+                        subsets: [`latin`, `latin-ext`],
+                        variants: [`400`, `400i`],
+                    },
                 ],
             },
         },
