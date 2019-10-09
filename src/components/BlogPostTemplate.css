@@ -1,0 +1,16 @@
+.blog-post-date {
+    background-color: rgba(207, 204, 186, 0.5);
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+    width: fit-content;
+    padding: .1rem .5rem;
+}
+  
+.post-title {
+    color: #672646;
+}
+  
+p {
+    line-height: 2rem;
+}
