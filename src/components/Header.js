@@ -4,12 +4,12 @@ import React from 'react';
 
 import './Header.css';
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
     <header>
         <div className="header-content">
-            <h1 className="m-0">
+            <h1 className="text-center m-0">
                 <Link className="header-link" to="/">
-                    {siteTitle}
+                    Poems With Choruses
                 </Link>
             </h1>
         </div>
