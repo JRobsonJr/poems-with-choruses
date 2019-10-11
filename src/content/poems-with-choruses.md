@@ -2,6 +2,7 @@
 path: '/self-titled'
 date: '2019-10-09'
 title: 'Self-Titled'
+description: 'After a long process of overthinking, worrying and postponing, I finally decided to begin this blog.'
 ---
 
 After a long process of overthinking, worrying and postponing, I finally decided to begin this blog.
