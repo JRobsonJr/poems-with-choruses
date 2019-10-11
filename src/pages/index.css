@@ -1,0 +1,15 @@
+.blog-post-list-item {
+    padding-bottom: 2.5rem;
+}
+
+.blog-post-list-item-title {
+    color: #672646;
+    text-decoration: none;
+    margin-bottom: .25rem;
+}
+
+.blog-post-list-item-date {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: .25rem;
+    font-size: .9rem;
+}
