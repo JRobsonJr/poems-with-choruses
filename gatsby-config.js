@@ -1,4 +1,5 @@
 module.exports = {
+    pathPrefix: '/poems-with-choruses',
     siteMetadata: {
         title: `Poems With Choruses`,
         description: `Documenting life as I try to fit it in the lyrics of a song.`,
