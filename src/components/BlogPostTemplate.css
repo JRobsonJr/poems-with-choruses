@@ -3,6 +3,12 @@
     background-color: white
 }
 
+@media (max-width: 768px) {
+    .blog-post-container {
+        padding: 1.5rem 1rem;
+    }
+}
+
 .blog-post-date {
     background-color: rgba(207, 204, 186, 0.5);
     font-family: 'Nunito Sans', sans-serif;
@@ -11,11 +17,11 @@
     width: fit-content;
     padding: .1rem .5rem;
 }
-  
+
 .post-title {
     color: #672646;
 }
-  
+
 p {
     line-height: 2rem;
 }
