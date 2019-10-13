@@ -1,16 +1,37 @@
 header {
+  position: relative;
+  background-image: url('./../images/lights.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background-color: #672646;
+  opacity: .8;
 }
 
 .header-content {
-  padding: 1.5rem 1rem;
+  position: relative;
+  padding: 2.5rem 1rem;
 }
 
-.header-link {
-    color: white;
-    text-decoration: none;
+.header-blog-title {
+  position: relative;
+  margin-bottom: .5rem;
 }
-  
-.text-center {
-  text-align: center;
+
+.header-blog-description {
+  font-style: italic;
+}
+
+.header-link, .footer-link {
+  color: white;
+  text-decoration: none;
 }
