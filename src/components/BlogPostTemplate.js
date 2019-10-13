@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 
 import Header from './Header';
 import Footer from './Footer';
+import SEO from './SEO';
 
 import './BlogPostTemplate.css';
 
@@ -11,6 +12,7 @@ const BlogPostTemplate = ({ data }) => {
     const { frontmatter, html } = markdownRemark;
     return (
         <>
+            <SEO title={frontmatter.title} />
             <Header />
             <div className="layout">
                 <div className="blog-post-container">
