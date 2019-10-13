@@ -2,7 +2,7 @@
 path: '/home-home'
 date: '2019-10-12'
 title: 'Home, Home'
-description: "Believe me if you can, I know I'm biased."
+description: "I'm already where I wanted to be from the start."
 ---
 
 Today is Children's Day in Brazil and once again I'm not home for the occasion. I think it means a lot transition-wise for me, considering the whole symbolism of living alone and away from my family.
@@ -13,57 +13,57 @@ I think "Home, Home" sums a lot of the reflections that this day calls for. I wr
 
 > **_Home, Home_**
 >
->How did I overlook it through the years? \
->Draw me near, draw me near, draw me \
->Lure me to the grounds, to the treetops \
->The sky’s just never been more like it \
->The wind makes a gentle mess in my head \
->To say I’m determined is an understatement \
->Maybe I’m determination itself \
->And it’s a story I’ll be telling everyone \
->As soon as I get there
+> How did I overlook it through the years? \
+> Draw me near, draw me near, draw me \
+> Lure me to the grounds, to the treetops \
+> The sky’s just never been more like it \
+> The wind makes a gentle mess in my head \
+> To say I’m determined is an understatement \
+> Maybe I’m determination itself \
+> And it’s a story I’ll be telling everyone \
+> As soon as I get there
 >
->**And you know what? \
->I think I’ve found it already \
->I can’t predict if it will last \
->Maybe soon we’ll call it past \
->But for now, while I lay all weapons down \
->I call it home and I won’t feed any doubt**
+> **And you know what? \
+> I think I’ve found it already \
+> I can’t predict if it will last \
+> Maybe soon we’ll call it past \
+> But for now, while I lay all weapons down \
+> I call it home and I won’t feed any doubt**
 >
->I’m already where I wanted to be \
->I’m already where I wanted to be from the start
+> I’m already where I wanted to be \
+> I’m already where I wanted to be from the start
 >
->It’s a shame to realize I’m not here often \
->To see there’s glory in simplicity \
->Like waking up to the morning sun \
->I lost track of when I started to live this way \
->Like I don’t know a spare second \
->But who knows when I’ll have a second chance \
->I’m sure it’s time to start a simple change
+> It’s a shame to realize I’m not here often \
+> To see there’s glory in simplicity \
+> Like waking up to the morning sun \
+> I lost track of when I started to live this way \
+> Like I don’t know a spare second \
+> But who knows when I’ll have a second chance \
+> I’m sure it’s time to start a simple change
 >
->**I can’t tell if it will last \
->Maybe soon we’ll call it past \
->But for now, while I lay my weapons down \
->I call it home and I won’t feed any doubt**
+> **I can’t tell if it will last \
+> Maybe soon we’ll call it past \
+> But for now, while I lay my weapons down \
+> I call it home and I won’t feed any doubt**
 >
->If I close my eyes long enough \
->I can hear you singing me to sleep \
->When you thought I was too young \
->I can’t tell if I’ve really grown since then \
->Don’t let me go away on my own, not yet \
->I’m not ready, I’ve never thought I ever was \
->I don’t really know anything but that I’m here \
->I’m present, I’m conscious, I’m feeling everything
+> If I close my eyes long enough \
+> I can hear you singing me to sleep \
+> When you thought I was too young \
+> I can’t tell if I’ve really grown since then \
+> Don’t let me go away on my own, not yet \
+> I’m not ready, I’ve never thought I ever was \
+> I don’t really know anything but that I’m here \
+> I’m present, I’m conscious, I’m feeling everything
 >
->**I can’t tell if it will last \
->Maybe soon we’ll call it past \
->But for now, while I lay my weapons down \
->I call it home and I won’t feed any doubt**
+> **I can’t tell if it will last \
+> Maybe soon we’ll call it past \
+> But for now, while I lay my weapons down \
+> I call it home and I won’t feed any doubt**
 >
->And I’m already where I wanted to be \
->I’m already where I wanted to be from the start
+> And I’m already where I wanted to be \
+> I’m already where I wanted to be from the start
 >
->Suddenly it feels like something I used to know \
->Suddenly it feels like home \
->Home, home \
->_I’m home_
+> Suddenly it feels like something I used to know \
+> Suddenly it feels like home \
+> Home, home \
+> _I’m home_
