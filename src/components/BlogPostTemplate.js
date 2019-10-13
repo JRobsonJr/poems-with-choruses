@@ -1,6 +1,8 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+
 import Header from './Header';
+import Footer from './Footer';
 
 import './BlogPostTemplate.css';
 
@@ -22,6 +24,7 @@ const BlogPostTemplate = ({ data }) => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 };
