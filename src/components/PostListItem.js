@@ -1,9 +1,8 @@
 import React from 'react';
 
-import { useStaticQuery, graphql, Link } from 'gatsby';
+import { Link } from 'gatsby';
 
 import './PostListItem.css';
-import Image from './Image';
 
 const PostListItem = ({ post }) => (
     <div className="blog-post-list-item">
