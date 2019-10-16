@@ -8,7 +8,7 @@ imageUrl: 'https://i.imgur.com/fAF5Hjr.jpg'
 
 I've tried many approaches when it comes to writing, but one method that I love is coming up with a title first.
 
-And titles come out of nowhere. For instance, I held onto the idea of a two-part song with similar messages, but different approaches (something on the lines of Lorde's Hard Feelings / Loveless).
+And titles come out of nowhere. For instance, I held onto the idea of a two-part song with similar messages, but different approaches (something on the lines of Lorde's **Hard Feelings / Loveless**).
 
 As much as I loved the first thought, the second half was way easier to write. Revisiting the title, I noticed that time and circumstances helped resignify the message that the title meant to me. So here it is, the Hard Feelings part or so to say, that I finished quite recently.
 
