@@ -12,7 +12,11 @@ const BlogPostTemplate = ({ data }) => {
     const { frontmatter, html } = markdownRemark;
     return (
         <>
-            <SEO title={frontmatter.title} />
+            <SEO
+                title={frontmatter.title}
+                description={frontmatter.description}
+                imageUrl={frontmatter.imageUrl}
+            />
             <Header />
             <div className="layout">
                 <div className="blog-post-container">
@@ -40,6 +44,7 @@ export const pageQuery = graphql`
                 path
                 title
                 description
+                imageUrl
             }
         }
     }
