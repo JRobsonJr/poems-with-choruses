@@ -19,6 +19,7 @@ const BlogPostTemplate = ({ data }) => {
             />
             <Header />
             <div className="layout">
+                <BlogPostImageCover imageUrl={frontmatter.imageUrl} />
                 <div className="blog-post-container">
                     <div className="blog-post">
                         <p className="blog-post-date">{frontmatter.date}</p>
@@ -34,6 +35,14 @@ const BlogPostTemplate = ({ data }) => {
         </>
     );
 };
+
+export const BlogPostImageCover = ({ imageUrl }) =>
+    imageUrl ? (
+        <div
+            className="blog-post-image-cover"
+            style={{ backgroundImage: `url("${imageUrl}")` }}
+        />
+    ) : null;
 
 export const pageQuery = graphql`
     query($path: String!) {

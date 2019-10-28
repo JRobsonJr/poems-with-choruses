@@ -9,6 +9,12 @@
     }
 }
 
+.blog-post-image-cover {
+    height: 50vh;
+    background-position: center;
+    background-size: 100%;
+}
+
 .blog-post-date {
     background-color: rgba(207, 204, 186, 0.5);
     font-family: 'Nunito Sans', sans-serif;

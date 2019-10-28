@@ -2,10 +2,12 @@ import React from 'react';
 
 import { Link } from 'gatsby';
 
+import { BlogPostImageCover } from './BlogPostTemplate';
 import './PostListItem.css';
 
 const PostListItem = ({ post }) => (
     <div className="blog-post-list-item">
+        <BlogPostImageCover imageUrl={post.frontmatter.imageUrl} />
         <div className="blog-post-list-item-header">
             {post.frontmatter.date}
         </div>
