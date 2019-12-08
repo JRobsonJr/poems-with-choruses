@@ -8,15 +8,15 @@ const CurrentObsession = () => (
             <h2 className="text-light text-center">Current obsession</h2>
             <p className="text-light text-center m-0">
                 <i>
-                    Could have been my anything / Now everything's embarrassing
+                    But you just met somebody new / And now it's gon' be me and you
                 </i>
             </p>
             <p className="text-light text-center">
-                — Sky Ferreira, Ariel Rechtshaid, Devonté Hynes
+                — Robyn, Alexander Kronlund, Klas Åhlund
             </p>
             <iframe
                 className="responsive-iframe"
-                src="https://www.youtube.com/embed/_qsGZ6ngUoU"
+                src="https://www.youtube.com/embed/CHn7w3o22PA"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
