@@ -7,6 +7,7 @@ import { graphql } from 'gatsby';
 
 import './index.css';
 import PostListItem from '../components/PostListItem';
+import CurrentObsession from '../components/CurrentObsession';
 
 const IndexPage = ({
     data: {
@@ -19,7 +20,8 @@ const IndexPage = ({
     return (
         <Layout>
             <SEO title="Home" />
-            {posts}
+            <div className="layout">{posts}</div>
+            <CurrentObsession />
         </Layout>
     );
 };

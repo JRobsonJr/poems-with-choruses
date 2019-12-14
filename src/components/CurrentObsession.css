@@ -6,8 +6,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
 .current-obssession-container::before {
     content: '';
     position: absolute;
@@ -15,6 +13,13 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #24223C;
     opacity: .7;
+}
+
+.current-obssession-container:nth-of-type(2n + 1)::before {
+    background-color: #24223C;
+}
+
+.current-obssession-container:nth-of-type(2n)::before {
+    background-color: #672646;
 }
