@@ -1,8 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 
-import Header from './Header';
-import Footer from './Footer';
+import Layout from './Layout';
 import SEO from './SEO';
 
 import './BlogPostTemplate.css';
@@ -11,13 +10,12 @@ const BlogPostTemplate = ({ data }) => {
     const { markdownRemark } = data;
     const { frontmatter, html } = markdownRemark;
     return (
-        <>
+        <Layout>
             <SEO
                 title={frontmatter.title}
                 description={frontmatter.description}
                 imageUrl={frontmatter.imageUrl}
             />
-            <Header />
             <div className="layout">
                 <BlogPostImageCover imageUrl={frontmatter.imageUrl} />
                 <div className="blog-post-container">
@@ -31,8 +29,7 @@ const BlogPostTemplate = ({ data }) => {
                     </div>
                 </div>
             </div>
-            <Footer />
-        </>
+        </Layout>
     );
 };
 
