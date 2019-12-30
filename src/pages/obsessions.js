@@ -36,6 +36,13 @@ const obsessions = [
         songwriters: 'Robyn, Alexander Kronlund, Klas Åhlund',
         videoUrl: 'https://www.youtube.com/embed/CHn7w3o22PA',
     },
+    {
+        dateInsertion: 'December 29, 2019',
+        lyricsExcerpt:
+            "I'm out of my head, and I know that you're scared, because hearts get broken",
+        songwriters: 'Harry Styles, Kid Harpoon, Mitch Rowland, Tyler Johnson',
+        videoUrl: 'https://www.youtube.com/embed/enuYFtMHgfU',
+    },
 ];
 
 const ObsessionHistory = () => {

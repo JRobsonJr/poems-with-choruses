@@ -8,15 +8,16 @@ const CurrentObsession = () => (
             <h2 className="text-light text-center">Current obsession</h2>
             <p className="text-light text-center m-0">
                 <i>
-                    But you just met somebody new / And now it's gon' be me and you
+                    I'm out of my head, and I know that you're scared, because
+                    hearts get broken
                 </i>
             </p>
             <p className="text-light text-center">
-                — Robyn, Alexander Kronlund, Klas Åhlund
+                — Harry Styles, Kid Harpoon, Mitch Rowland, Tyler Johnson
             </p>
             <iframe
                 className="responsive-iframe"
-                src="https://www.youtube.com/embed/CHn7w3o22PA"
+                src="https://www.youtube.com/embed/enuYFtMHgfU"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
