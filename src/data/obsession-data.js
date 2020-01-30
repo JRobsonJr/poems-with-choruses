@@ -33,6 +33,14 @@ const obsessions = [
         songwriters: 'Harry Styles, Kid Harpoon, Mitch Rowland, Tyler Johnson',
         videoUrl: 'https://www.youtube.com/embed/enuYFtMHgfU',
     },
+    {
+        dateInsertion: 'January 29, 2020',
+        lyricsExcerpt:
+            "And when you decide it's your time to arrive, I've loved you for all of my life.",
+        songwriters:
+            'Halsey, Ammar Malik, Andrew VanWyngarden, Benny Blanco, Cashmere Cat, Dave Lubben, Kevin Snevely, Lido',
+        videoUrl: 'https://www.youtube.com/embed/MLw3JCQSkCU',
+    },
 ];
 
 export default obsessions;
