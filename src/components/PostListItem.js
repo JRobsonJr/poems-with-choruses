@@ -1,8 +1,8 @@
 import React from 'react';
-
 import { Link } from 'gatsby';
 
 import { BlogPostImageCover } from './BlogPostTemplate';
+
 import './PostListItem.css';
 
 const PostListItem = ({ post }) => (

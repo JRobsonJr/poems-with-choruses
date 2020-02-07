@@ -1,13 +1,12 @@
 import React from 'react';
+import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
-
-import { graphql } from 'gatsby';
-
-import './index.css';
 import PostListItem from '../components/PostListItem';
 import CurrentObsession from '../components/CurrentObsession';
+
+import './index.css';
 
 const IndexPage = ({
     data: {

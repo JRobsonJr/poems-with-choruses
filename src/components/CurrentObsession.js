@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './CurrentObsession.css';
-
 import obsessions from '../data/obsession-data';
+
+import './CurrentObsession.css';
 
 const CurrentObsession = () => {
     const { lyricsExcerpt, songwriters, videoUrl } = obsessions[
