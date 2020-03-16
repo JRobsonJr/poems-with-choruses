@@ -8,7 +8,7 @@ imageUrl: 'https://i.imgur.com/MMu01P0.jpg'
 
 > [English version: 21 lessons before 21](21-lessons)
 
-Cerca de um ano atrás, Taylor Swift compartilhou [30 coisas que ela aprendeu antes de fazer 30 anos](https://www.elle.com/culture/celebrities/a26628467/taylor-swift-30th-birthday-lessons/). Naquela época eu estava prestes a celebrar meu aniversário de vinte anos, então era a oportunidade perfeita para escrever minha versão desse artigo... Só que não terminei a tempo. Agora que estou fazendo 21, que não é tão simbólico quanto 20 e 30 parecem ser, de repente senti o desejo de concluir essa tarefa esse ano. Na minha versão, apresento 21 músicas com lições que estou tentando ativamente seguir na minha vida, não coisas que eu estou praticando completamente. Talvez "21 objetivos" possa ser mais acertado do que dizer que são lições que eu já aprendi.
+Cerca de um ano atrás, Taylor Swift compartilhou [30 coisas que ela aprendeu antes de fazer 30 anos](https://www.elle.com/culture/celebrities/a26628467/taylor-swift-30th-birthday-lessons/). Naquela época eu estava prestes a celebrar meu aniversário de vinte anos, então era a oportunidade perfeita para escrever minha versão desse artigo... Só que não terminei a tempo. Agora que estou fazendo 21, que não é tão simbólico quanto 20 e 30 parecem ser, de repente senti o desejo de concluir essa tarefa. Na minha versão, apresento 21 músicas com lições que estou tentando ativamente seguir na minha vida, não coisas que eu estou praticando completamente. Talvez "21 objetivos" possa ser mais acertado do que dizer que são lições que eu já aprendi.
 
 Aqui está a playlist para ouvir enquanto você está lendo:
 
@@ -23,7 +23,7 @@ Aqui está a playlist para ouvir enquanto você está lendo:
 > In real life \
 > **— _Daydreamer_, AURORA**
 
-Envelhecemos e tendemos a nos tornar pessoas focadas em resultados, em objetivos de vida a curto prazo. Entretanto, os sonhos não deveriam ser limitados às imagenss que nossos cérebros projetam enquanto dormimos: devemos nos permitir ter grandes esperanças e mentes não conformes. Tentar mudar o mundo, mesmo que pareça impossível.
+Ficamos mais velhos e tendemos a nos tornar pessoas focadas em resultados, em objetivos de vida a curto prazo. Entretanto, os sonhos não deveriam ser limitados às imagens que nossos cérebros projetam enquanto dormimos: devemos nos permitir ter grandes esperanças e mentes não conformes. Tentar mudar o mundo, mesmo que pareça impossível.
 
 ### 2. Nunca é tarde demais para começar
 
@@ -32,7 +32,7 @@ Envelhecemos e tendemos a nos tornar pessoas focadas em resultados, em objetivos
 > You know you're better than this \
 > **— _Headlock_, Imogen Heap**
 
-É acreditar que ainda há tempo para aprender algo novo ou começar algo que você sempre quis fazer. Experiências passadas podem nos assombrar e nos tornar presas da descrença de que as coisas podem funcionar quando elas não funcionaram antes, mas um sonho nunca perde seu valor.
+É acreditar que ainda há tempo para aprender algo novo ou começar algo que você sempre quis fazer. Experiências passadas podem nos assombrar e nos tornar presas da descrença de que as coisas podem funcionar por elas não terem funcionado antes, mas um sonho nunca perde seu valor.
 
 ### 3. Não há um "momento perfeito" para nada
 
@@ -54,7 +54,7 @@ Se eu fosse escrever sobre sentimentos que nutri por anos antes de confessá-los
 > Then I'll just hate everybody \
 > **— _I HATE EVERYBODY_, Halsey**
 
-Como a própria Halsey disse, essa estrofe não é um conselho. Em vez disso, é uma maneira bem-humorada de denunciar tudo de errado com se apaixonar antes de amar a si mesmo. Isso coloca você em um espaço da necessidade da aceitação dos outros antes da sua própria quando deveria ser o contrário.
+Como a própria Halsey disse, essa estrofe não é um conselho. Em vez disso, é uma maneira bem-humorada de denunciar tudo de errado com se deixar apaixonar antes de amar a si mesmo. Isso coloca você em um espaço da necessidade da aceitação dos outros antes da sua própria quando deveria ser o contrário.
 
 ### 5. Perdoe e peça desculpas
 
@@ -62,7 +62,7 @@ Como a própria Halsey disse, essa estrofe não é um conselho. Em vez disso, é
 > 'Cause we can't keep holding on to grudges \
 > **— _Grudges_, Paramore**
 
-Eu pensava que guardar rancor não era um problema para mim até que comecei a prestar atenção em situações do dia a dia que me causavam desconforto. No lugar de conversar sobre isso, eu segurava esses sentimentos até eles serem demais, e eu explodia. É libertador entender que não é justo nem saudável revisitar os erros das pessoas na sua cabeça quando elas não tinham intenção de causar mal.
+Eu pensava que guardar rancor não era um problema para mim até que comecei a prestar atenção em situações do dia a dia que me causavam desconforto. No lugar de conversar sobre isso, eu segurava esses sentimentos até eles serem demais, até eu explodir. É libertador entender que não é justo nem saudável revisitar os erros das pessoas na sua cabeça quando elas não tinham intenção de causar mal.
 
 ### 6. Encare diretamente as adversidades em relacionamentos
 
@@ -105,7 +105,7 @@ Kesha não teve pena da gente com "é hora de praticar o que eu falo". É fácil
 > Oh darling, the seasons are your friend \
 > **— _Death by Chocolate_, Sia**
 
-Quando o mundo parece que vai entrar em colapso porque você está com o coração partido, isso não vai acontecer de verdade. Você pode aprender a se refazer, não importa o quão difícil for o processo. Isso foi dito por Sia, então não vou passar muito tempo explicando. Não espere que em um dia me oponha a algo que Sia tenha falado.
+Quando o mundo parece que vai entrar em colapso por causa do seu coração partido, isso não vai acontecer de verdade. Você pode aprender a se refazer, não importa o quão difícil for o processo. Isso foi dito por Sia, então não vou passar muito tempo explicando. Não espere que em um dia me oponha a algo que Sia tenha falado.
 
 ### 11. Não veja situações em mero preto e branco
 
@@ -119,7 +119,7 @@ Quando o mundo parece que vai entrar em colapso porque você está com o coraç�
 > Was holy ground \
 > **— _Holy Ground_, Taylor Swift**
 
-Quando nós saímos de certas circustâncias, tendemos a criar uma imagem delas que é ou maravilhosa ou terrível. Mas mesmo em situações ruins, há sempre lições a serem aprendidas.
+Quando nós saímos de certas circustâncias, tendemos a criar imagens delas que são ou maravilhosas ou terríveis. Mas mesmo em situações ruins, há sempre lições a serem aprendidas.
 
 ### 12. Você não vence facilmente — e se vencer, é uma exceção
 
@@ -135,7 +135,7 @@ Tem dias que as coisas não vão do jeito que nós queremos, o que honestamente 
 > Just yesterday \
 > **— _Looking Up_, Paramore**
 
-Talvez você tenha nascido em um ambiente de privilégio. Ou talvez, depois de todo o esforço para chegar onde você queria, você esqueceu de todo o processo. Em ambos os casos, mantenha seus olhos abertos para as razões pelas quais você pode ser grato pelo que tem. Há mais do que só algumas, mesmo que você não consiga ver quando as coisas ficam difíceis.
+Talvez você tenha nascido em um ambiente de privilégio. Ou talvez, depois de todo o esforço para chegar onde você queria, você esqueceu de como todo o processo foi custoso. Em ambos os casos, mantenha seus olhos abertos para as razões pelas quais você pode ser grato. Há mais do que só algumas, mesmo que você não consiga ver quando as coisas ficam difíceis.
 
 ### 14. Não tenha medo de ser aberto
 
@@ -151,7 +151,7 @@ Uma das coisas que poderiam estar no topo da minha lista de "coisas mais difíce
 > Like a tear down a cheek \
 > **— _HEAVEN_, Troye Sivan**
 
-A letra de HEAVEN até parece um abraço quentinho depois de tanto tempo questionando e sabotando sentimentos. É tão confuso quando você se sente sozinho e não sabe a quem recorrer, ou como encontrar conforto na sua própria pele. Mas assim como uma lágrima descendo, a verdade não pode ser contida quando ela decide ser liberta. E do mesmo jeito, o alívio eventualmente encontra seu caminho.
+A letra de _HEAVEN_ até parece um abraço quentinho depois de tanto tempo questionando e sabotando sentimentos. É tão confuso quando você se sente sozinho e não sabe a quem recorrer, ou como encontrar conforto na sua própria pele. Mas assim como uma lágrima quando desce, a verdade não pode ser contida quando ela decide ser liberta. E do mesmo jeito, o alívio eventualmente encontra seu caminho.
 
 ### 16. Respeite individualidade e abrace a sua própria
 
@@ -163,7 +163,7 @@ A letra de HEAVEN até parece um abraço quentinho depois de tanto tempo questio
 
 Cada pessoa encontra sua forma de se expressar e dói vê-las sendo censuradas por causa disso. Não deveria ser difícil aceitar nossas diferenças e estar aqui um pelo outro, certo?
 
-### 17. Você nunca para (ou nunca deveria parar) de melhorar
+### 17. Você nunca para (pelo menos não deveria parar) de melhorar
 
 > I didn't know I was broken 'til I wanted to change \
 > I wanna get better, better, better, better \
@@ -202,7 +202,7 @@ Como alguém feliz em ser útil, é triste reconhecer que nem todo mundo está d
 > Then you'll win the war \
 > **— _Choose Your Battles_, Katy Perry**
 
-Na era de cancelamentos digitais, não devíamos concordar em lutar por causas mais urgentes? É triste ver alguém ser completamente destruída por um mero erro quando todo esse esforço poderia ser colocado em tentar mudar a mente de pessoas que não estão ativamente ser melhores.
+Na era de "cancelamentos" digitais, não devíamos concordar em lutar por causas mais urgentes? É triste ver alguém ter sua reputação completamente destruída por um mero erro quando todo esse esforço poderia ser colocado em tentar mudar a mente de pessoas que não estão ativamente tentando ser melhores.
 
 ### 21. Tenha fé no seu trabalho e em você
 

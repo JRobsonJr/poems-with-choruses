@@ -62,7 +62,7 @@ As Halsey herself said, these lyrics are "not advice." Instead, they are almost 
 > 'Cause we can't keep holding on to grudges \
 > **— _Grudges_, Paramore**
 
-I thought holding grudges wasn't a problem for me until I started paying attention to daily life situations that caused me discomfort. Instead of talking it out, I would hold those feelings in until they were too much, and I exploded. It's liberating to understand it's not fair nor healthy to revisit people's mistakes in your head when they didn't intend to do you wrong.
+I thought holding grudges wasn't a problem for me until I started paying attention to daily life situations that caused me discomfort. Instead of talking it out, I would hold those feelings in until they were too much, until I exploded. It's liberating to understand it's not fair nor healthy to revisit people's mistakes in your head when they didn't intend to do you wrong.
 
 ### 6. Face relationship adversities head-on
 
@@ -151,7 +151,7 @@ One of the things that could top my list of "most difficult things to do" is to 
 > Like a tear down a cheek \
 > **— _HEAVEN_, Troye Sivan**
 
-The lyrics for HEAVEN feel like a warm hug after so much time questioning and sabotaging feelings. It's so confusing when you feel alone and when you don't know who to turn to, or how to find comfort in your skin. But just as a tear runs down a cheek, the truth can't be held back once it decides to be let out. And just like that, the relief eventually finds its way.
+The lyrics for _HEAVEN_ feel like a warm hug after so much time questioning and sabotaging feelings. It's so confusing when you feel alone and when you don't know who to turn to, or how to find comfort in your skin. But just as a tear runs down a cheek, the truth can't be held back once it decides to be let out. And just like that, the relief eventually finds its way.
 
 ### 16. Respect individuality and embrace your own
 
@@ -202,7 +202,7 @@ As someone happy in feeling useful, it's sad to acknowledge not everyone will be
 > Then you'll win the war \
 > **— _Choose Your Battles_, Katy Perry**
 
-In the era of digital cancelation, shouldn't we agree to fight for the more pressing causes? It's saddening to see someone being completely shamed for a single mistake when all that effort could be put into trying to change the minds of people who are not actively trying to be better.
+In the era of digital "cancelation", shouldn't we agree to fight for the more pressing causes? It's saddening to see someone being completely shamed for a single mistake when all that effort could be put into trying to change the minds of people who are not actively trying to be better.
 
 ### 21. Have faith in your work and yourself
 
