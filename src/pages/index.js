@@ -13,9 +13,9 @@ const IndexPage = ({
         allMarkdownRemark: { edges },
     },
 }) => {
-    const posts = edges.map(edge => (
-        <PostListItem key={edge.node.id} post={edge.node} />
-    ));
+    const posts = edges
+        .filter(edge => !edge.node.frontmatter.path.endsWith('-pt'))
+        .map(edge => <PostListItem key={edge.node.id} post={edge.node} />);
     return (
         <Layout>
             <SEO title="Home" />
