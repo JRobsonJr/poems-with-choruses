@@ -6,10 +6,11 @@
 .blog-post-image-cover {
     height: 50vh;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
     .blog-post-container {
         padding: 1.5rem 1rem;
     }

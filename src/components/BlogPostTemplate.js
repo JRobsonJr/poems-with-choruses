@@ -16,7 +16,7 @@ const BlogPostTemplate = ({ data }) => {
                 description={frontmatter.description}
                 imageUrl={frontmatter.imageUrl}
             />
-            <div className="layout">
+            <div className="layout layout-post">
                 <BlogPostImageCover imageUrl={frontmatter.imageUrl} />
                 <div className="blog-post-container">
                     <div className="blog-post">
