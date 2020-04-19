@@ -7,7 +7,9 @@ import './PostListItem.css';
 
 const PostListItem = ({ post }) => (
     <div className="blog-post-list-item">
-        <BlogPostImageCover imageUrl={post.frontmatter.imageUrl} />
+        <Link to={post.frontmatter.path}>
+            <BlogPostImageCover imageUrl={post.frontmatter.imageUrl} />
+        </Link>
         <div className="blog-post-list-item-header">
             {post.frontmatter.date}
         </div>
