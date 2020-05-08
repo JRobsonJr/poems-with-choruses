@@ -41,6 +41,13 @@ const obsessions = [
             'Halsey, Ammar Malik, Andrew VanWyngarden, Benny Blanco, Cashmere Cat, Dave Lubben, Kevin Snevely, Lido',
         videoUrl: 'https://www.youtube.com/embed/MLw3JCQSkCU',
     },
+    {
+        dateInsertion: 'May 7, 2020',
+        lyricsExcerpt:
+            "If you're offended by this song, you're clearly doing something wrong.",
+        songwriters: 'Dua Lipa, Jason Evigan, Justin Tranter, Kennedi',
+        videoUrl: 'https://www.youtube.com/embed/k0QWX2M7W7M',
+    },
 ];
 
 export default obsessions;
