@@ -48,6 +48,13 @@ const obsessions = [
         songwriters: 'Dua Lipa, Jason Evigan, Justin Tranter, Kennedi',
         videoUrl: 'https://www.youtube.com/embed/k0QWX2M7W7M',
     },
+    {
+        dateInsertion: 'June 28, 2020',
+        lyricsExcerpt:
+            "And I won't say you're the reason I was on my knees, but I'm thinking 'bout making a comeback, back to me.",
+        songwriters: 'Carly Rae Jepsen, Jack Antonoff, Jared Manierka',
+        videoUrl: 'https://www.youtube.com/embed/CxI5C4Hel1o',
+    },
 ];
 
 export default obsessions;
