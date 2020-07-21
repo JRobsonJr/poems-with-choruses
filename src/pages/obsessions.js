@@ -7,8 +7,6 @@ import PostListItem from '../components/PostListItem';
 
 import obsessions from '../data/obsession-data';
 
-import './index.css';
-
 const ObsessionHistory = () => {
     const obsessionList = obsessions
         .reverse()

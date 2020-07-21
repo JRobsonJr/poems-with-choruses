@@ -1,12 +1,12 @@
-const path = require(`path`);
+const path = require('path');
+const { paginate } = require('gatsby-awesome-pagination')
+
 exports.createPages = async ({ actions, graphql, reporter }) => {
     const { createPage } = actions;
-    const template = path.resolve(`src/components/BlogPostTemplate.js`);
     const result = await graphql(`
         {
-            allMarkdownRemark(
+            posts: allMarkdownRemark(
                 sort: { order: DESC, fields: [frontmatter___date] }
-                limit: 1000
             ) {
                 edges {
                     node {
@@ -22,14 +22,33 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     `);
 
     if (result.errors) {
-        reporter.panicOnBuild(`Error while running GraphQL query.`);
+        reporter.panicOnBuild('Error while running GraphQL query.');
         return;
     }
 
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    paginate({
+        createPage,
+        items: result.data.posts.edges,
+        component: path.resolve('src/templates/index.js'),
+        itemsPerPage: 6,
+        itemsPerFirstPage: 6,
+        pathPrefix: '/posts',
+    });
+
+    createPage({
+        path: '/',
+        component: path.resolve('src/templates/index.js'),
+        context: {
+            skip: 1,
+            limit: 6,
+            nextPagePath: '/posts/2'
+        }
+    });
+
+    result.data.posts.edges.forEach(({ node }) => {
         createPage({
             path: node.frontmatter.path,
-            component: template,
+            component: path.resolve('src/components/BlogPostTemplate.js'),
             context: {},
         });
     });

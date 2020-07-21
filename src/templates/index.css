@@ -18,6 +18,21 @@
     text-align: center;
 }
 
+.page-navigation {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60vw;
+}
+
+.page-navigation-button {
+    background-color: #672646;
+    color: white !important;
+    padding: .5rem;
+}
+
 a {
     text-decoration: none;
     color: #672646;

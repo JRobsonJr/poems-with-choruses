@@ -13,13 +13,13 @@
 }
 
 @media (max-width: 1500px) {
-  .layout {
+  .layout.paginate-navigation {
     max-width: 80vw;
   }
 }
 
 @media (max-width: 750px) {
-  .layout {
+  .layout.paginate-navigation {
     max-width: 100vw;
     display: block;
   }

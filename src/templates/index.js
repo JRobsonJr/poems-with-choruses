@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
@@ -10,7 +10,11 @@ import './index.css';
 
 const IndexPage = ({
     data: {
-        allMarkdownRemark: { edges },
+        posts: { edges },
+    },
+    pageContext: {
+        previousPagePath,
+        nextPagePath,
     },
 }) => {
     const posts = edges
@@ -20,14 +24,20 @@ const IndexPage = ({
         <Layout>
             <SEO title="Home" />
             <div className="layout">{posts}</div>
+            
             <CurrentObsession />
         </Layout>
     );
 };
 
 export const pageQuery = graphql`
-    query {
-        allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    query($skip: Int!, $limit: Int!) {
+        posts: allMarkdownRemark(
+            filter: { frontmatter: { path: { regex: "/.+(?<!pt)$/" } } }
+            sort: { fields: [frontmatter___date], order: DESC }
+            skip: $skip
+            limit: $limit
+        ) {
             edges {
                 node {
                     id
