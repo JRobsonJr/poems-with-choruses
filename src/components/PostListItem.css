@@ -1,6 +1,4 @@
 .layout-container {
-  background-color: #fefefe;
-  max-width: 960;
   padding: 1.5rem 1rem;
 }
 
@@ -11,6 +9,28 @@
   font-family: 'Nunito Sans', sans-serif;
 }
 
+.blog-post-list-item-link {
+  background-color: rgba(104, 39, 71, 0.15);
+  align-self: flex-end;
+  padding: .5rem 1.5rem;
+  text-transform: uppercase;
+  font-family: 'Nunito Sans', sans-serif;
+  width: fit-content;
+}
+
 .blog-post-list-item {
+  background-color: #fefefe;
+  display: flex;
   margin-top: 1.5rem;
+}
+
+.blog-post-list-item-description {
+  margin-bottom: .75rem;
+}
+
+.blog-post-list-item-image {
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

@@ -1,30 +1,46 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import { BlogPostImageCover } from './BlogPostTemplate';
-
 import './PostListItem.css';
 
 const PostListItem = ({ post }) => (
     <div className="blog-post-list-item">
-        <Link to={post.frontmatter.path}>
-            <BlogPostImageCover imageUrl={post.frontmatter.imageUrl} />
-        </Link>
-        <div className="blog-post-list-item-header">
-            {post.frontmatter.date}
+        <div className={post.frontmatter.imageUrl ? 'w-25' : ''}>
+            <Link to={post.frontmatter.path}>
+                <BlogPostImageCover imageUrl={post.frontmatter.imageUrl} />
+            </Link>
         </div>
-        <div className="layout-container">
-            <h1 className="blog-post-list-item-title">
+        <div className={post.frontmatter.imageUrl ? 'w-75' : 'w-100'}>
+            <div className="blog-post-list-item-header">
+                {post.frontmatter.date}
+            </div>
+            <div className="layout-container">
+                <h1 className="blog-post-list-item-title">
+                    <Link
+                        className="blog-post-list-item-title"
+                        to={post.frontmatter.path}
+                    >
+                        {post.frontmatter.title}
+                    </Link>
+                </h1>
+                <p className="blog-post-list-item-description">{post.frontmatter.description}</p>
                 <Link
-                    className="blog-post-list-item-title"
-                    to={post.frontmatter.path}
-                >
-                    {post.frontmatter.title}
+                    to={post.frontmatter.path}>
+                    <div className="blog-post-list-item-link">
+                        Read
+                        </div>
                 </Link>
-            </h1>
-            {post.frontmatter.description}
+            </div>
         </div>
     </div>
 );
+
+const BlogPostImageCover = ({ imageUrl }) =>
+    imageUrl ? (
+        <div
+            className="blog-post-list-item-image"
+            style={{ backgroundImage: `url("${imageUrl}")` }}
+        />
+    ) : null;
 
 export default PostListItem;
