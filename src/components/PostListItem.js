@@ -5,12 +5,12 @@ import './PostListItem.css';
 
 const PostListItem = ({ post }) => (
     <div className="blog-post-list-item">
-        <div className={post.frontmatter.imageUrl ? 'w-100-nl w-25' : ''}>
+        <div className={post.frontmatter.imageUrl ? 'w-25' : ''}>
             <Link to={post.frontmatter.path}>
                 <BlogPostImageCover imageUrl={post.frontmatter.imageUrl} />
             </Link>
         </div>
-        <div className={post.frontmatter.imageUrl ? 'w-100-nl w-75' : 'w-100'}>
+        <div className={post.frontmatter.imageUrl ? 'w-75' : 'w-100'}>
             <div className="blog-post-list-item-header">
                 {post.frontmatter.date}
             </div>
