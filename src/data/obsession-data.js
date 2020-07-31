@@ -55,6 +55,13 @@ const obsessions = [
         songwriters: 'Carly Rae Jepsen, Jack Antonoff, Jared Manierka',
         videoUrl: 'https://www.youtube.com/embed/CxI5C4Hel1o',
     },
+    {
+        dateInsertion: 'July 31, 2020',
+        lyricsExcerpt:
+            "I didn't have it in myself to go with grace, and you're the hero flying around, saving face.",
+        songwriters: 'Taylor Swift',
+        videoUrl: 'https://www.youtube.com/embed/OWbDJFtHl3w',
+    },
 ];
 
 export default obsessions;
