@@ -16,12 +16,12 @@ This is a love story.
 > What a burden to put on a kid \
 > Too young to stand on both feet \
 > And know that he shouldn't settle for any value
-> 
+>
 > **'Cause I always had a hunch \
 > But I always called it off \
 > Thought that I could change the world \
 > Changing myself was the cost**
-> 
+>
 > Barbed wire covered each mean word \
 > Ever heard in dining tables \
 > Though hurtful, time and I made it into flowers \
@@ -31,29 +31,29 @@ This is a love story.
 > I was drowning, crying their fears \
 > Truths I still find hard to confess \
 > But all I needed was someone to cry for me
-> 
+>
 > **'Cause I always had a hunch \
 > But I always called it off \
 > Thought that I could change the world \
 > Changing myself was the cost**
-> 
+>
 > Slowly saving up, getting older \
 > And though he wouldn't believe me \
 > Even the ever-brokenhearted boy found his peace \
 > That day heard the longest sigh \
 > Ever recorded in human life \
 > And those who lent their ears asking themselves why
-> 
+>
 > Why wait for so long when you know \
 > There's no rest for the repressed \
 > Neither pride in running away
-> 
+>
 > **'Cause I always had a hunch \
 > But I always called it off \
 > Thought that I could change the world \
 > Changing myself was the cost \
 > And I don't pay it anymore**
-> 
+>
 > What a burden to put on a kid \
 > But if I knew you back then \
 > Would I ask you to break my heart \

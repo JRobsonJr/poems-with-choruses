@@ -6,23 +6,23 @@ If you got here somehow, feel free to read! But I'll never really know you were 
 
 ## Poems
 
-* [Faith-Seeker](https://jrobsonjr.github.io/poems-with-choruses/faith-seeker)
-* [Home, Home](https://jrobsonjr.github.io/poems-with-choruses/home-home)
-* [In Case You Ever Listen](https://jrobsonjr.github.io/poems-with-choruses/in-case-you-ever-listen)
-* [YDWML!](https://jrobsonjr.github.io/poems-with-choruses/ydwml!)
-* [We Don't Talk About Future](https://jrobsonjr.github.io/poems-with-choruses/we-dont-talk-about-future)
-* [Better Keep My Hopes](https://jrobsonjr.github.io/poems-with-choruses/better-keep-my-hopes)
-* [Checkboxes](https://jrobsonjr.github.io/poems-with-choruses/checkboxes)
-* [If It Happens At All](https://jrobsonjr.github.io/poems-with-choruses/if-it-happens-at-all)
-* [Empty Corridors](https://jrobsonjr.github.io/poems-with-choruses/empty-corridors)
-* [Revoked Access](https://jrobsonjr.github.io/poems-with-choruses/revoked-access)
-* [Solitaire](https://jrobsonjr.github.io/poems-with-choruses/solitaire)
-* [New York Streets](https://jrobsonjr.github.io/poems-with-choruses/new-york-streets)
+-   [Faith-Seeker](https://jrobsonjr.github.io/poems-with-choruses/faith-seeker)
+-   [Home, Home](https://jrobsonjr.github.io/poems-with-choruses/home-home)
+-   [In Case You Ever Listen](https://jrobsonjr.github.io/poems-with-choruses/in-case-you-ever-listen)
+-   [YDWML!](https://jrobsonjr.github.io/poems-with-choruses/ydwml!)
+-   [We Don't Talk About Future](https://jrobsonjr.github.io/poems-with-choruses/we-dont-talk-about-future)
+-   [Better Keep My Hopes](https://jrobsonjr.github.io/poems-with-choruses/better-keep-my-hopes)
+-   [Checkboxes](https://jrobsonjr.github.io/poems-with-choruses/checkboxes)
+-   [If It Happens At All](https://jrobsonjr.github.io/poems-with-choruses/if-it-happens-at-all)
+-   [Empty Corridors](https://jrobsonjr.github.io/poems-with-choruses/empty-corridors)
+-   [Revoked Access](https://jrobsonjr.github.io/poems-with-choruses/revoked-access)
+-   [Solitaire](https://jrobsonjr.github.io/poems-with-choruses/solitaire)
+-   [New York Streets](https://jrobsonjr.github.io/poems-with-choruses/new-york-streets)
 
 ## Blog posts
 
-* [Self-Titled](https://jrobsonjr.github.io/poems-with-choruses/self-titled)
-* [21 Lessons Before 21](https://jrobsonjr.github.io/poems-with-choruses/21-lessons) [[Portuguese Version]](https://jrobsonjr.github.io/poems-with-choruses/21-lessons-pt)
+-   [Self-Titled](https://jrobsonjr.github.io/poems-with-choruses/self-titled)
+-   [21 Lessons Before 21](https://jrobsonjr.github.io/poems-with-choruses/21-lessons) [[Portuguese Version]](https://jrobsonjr.github.io/poems-with-choruses/21-lessons-pt)
 
 ## Technically speaking
 

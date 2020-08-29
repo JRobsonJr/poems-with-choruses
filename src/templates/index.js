@@ -12,10 +12,7 @@ const IndexPage = ({
     data: {
         posts: { edges },
     },
-    pageContext: {
-        previousPagePath,
-        nextPagePath,
-    },
+    pageContext: { previousPagePath, nextPagePath },
 }) => {
     const posts = edges
         .filter(edge => !edge.node.frontmatter.path.endsWith('-pt'))
@@ -24,7 +21,9 @@ const IndexPage = ({
         <Layout>
             <SEO title="Home" />
             <div className="layout">{posts}</div>
-            
+            <Link to={previousPagePath}>prev</Link>
+            <Link to={nextPagePath}>next</Link>
+
             <CurrentObsession />
         </Layout>
     );
