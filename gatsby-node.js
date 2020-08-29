@@ -1,5 +1,5 @@
 const path = require('path');
-const { paginate } = require('gatsby-awesome-pagination')
+const { paginate } = require('gatsby-awesome-pagination');
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
     const { createPage } = actions;
@@ -32,17 +32,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         component: path.resolve('src/templates/index.js'),
         itemsPerPage: 6,
         itemsPerFirstPage: 6,
-        pathPrefix: '/posts',
-    });
-
-    createPage({
-        path: '/',
-        component: path.resolve('src/templates/index.js'),
-        context: {
-            skip: 1,
-            limit: 6,
-            nextPagePath: '/posts/2'
-        }
+        pathPrefix: ({ pageNumber }) => (pageNumber === 0 ? '/' : '/page'),
     });
 
     result.data.posts.edges.forEach(({ node }) => {
