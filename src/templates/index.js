@@ -14,20 +14,39 @@ const IndexPage = ({
     },
     pageContext: { previousPagePath, nextPagePath },
 }) => {
-    const posts = edges
-        .filter(edge => !edge.node.frontmatter.path.endsWith('-pt'))
-        .map(edge => <PostListItem key={edge.node.id} post={edge.node} />);
+    const posts = edges.map(edge => (
+        <PostListItem key={edge.node.id} post={edge.node} />
+    ));
+
     return (
         <Layout>
             <SEO title="Home" />
-            <div className="layout">{posts}</div>
-            <Link to={previousPagePath}>prev</Link>
-            <Link to={nextPagePath}>next</Link>
-
+            <div className="layout">
+                {posts}
+                <PageNavigation
+                    previousPagePath={previousPagePath}
+                    nextPagePath={nextPagePath}
+                />
+            </div>
             <CurrentObsession />
         </Layout>
     );
 };
+
+const PageNavigation = ({ previousPagePath, nextPagePath }) => (
+    <div className="page-navigation">
+        {previousPagePath && (
+            <Link to={previousPagePath}>
+                <div className="blog-post-list-item-link">Previous</div>
+            </Link>
+        )}
+        {nextPagePath && (
+            <Link to={nextPagePath}>
+                <div className="blog-post-list-item-link">Next</div>
+            </Link>
+        )}
+    </div>
+);
 
 export const pageQuery = graphql`
     query($skip: Int!, $limit: Int!) {
