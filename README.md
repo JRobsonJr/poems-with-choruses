@@ -34,7 +34,7 @@ If you got here somehow, feel free to read! But I'll never really know you were 
 
 -   [Solitaire](https://jrobsonjr.github.io/poems-with-choruses/solitaire)
 -   [New York Streets](https://jrobsonjr.github.io/poems-with-choruses/new-york-streets)
--   [No Rest For The Repressed]()
+-   [No Rest For The Repressed](https://jrobsonjr.github.io/poems-with-choruses/no-rest-for-the-repressed)
 
 ## Blog posts
 
