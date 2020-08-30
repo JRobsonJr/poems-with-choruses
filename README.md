@@ -4,20 +4,37 @@ _Poems With Choruses_ is a personal project. I write as an emotional release and
 
 If you got here somehow, feel free to read! But I'll never really know you were here since I've yet to implement features related to interactions. What a bummer, I know...
 
-## Poems
+## The Poems :sparkles:
 
--   [Faith-Seeker](https://jrobsonjr.github.io/poems-with-choruses/faith-seeker)
+### CA :eyes:
+
+1. [Faith-Seeker](https://jrobsonjr.github.io/poems-with-choruses/faith-seeker)
+2. ???
+3. ???
+4. [Empty Corridors](https://jrobsonjr.github.io/poems-with-choruses/empty-corridors)
+5. ???
+6. ???
+7. [If It Happens At All](https://jrobsonjr.github.io/poems-with-choruses/if-it-happens-at-all)
+8. ???
+9. [YDWML!](https://jrobsonjr.github.io/poems-with-choruses/ydwml!)
+10. [Better Keep My Hopes](https://jrobsonjr.github.io/poems-with-choruses/better-keep-my-hopes)
+11. [In Case You Ever Listen](https://jrobsonjr.github.io/poems-with-choruses/in-case-you-ever-listen)
+12. ???
+13. ???
+14. ???
+15. [Revoked Access](https://jrobsonjr.github.io/poems-with-choruses/revoked-access)
+
+### Standalone
+
 -   [Home, Home](https://jrobsonjr.github.io/poems-with-choruses/home-home)
--   [In Case You Ever Listen](https://jrobsonjr.github.io/poems-with-choruses/in-case-you-ever-listen)
--   [YDWML!](https://jrobsonjr.github.io/poems-with-choruses/ydwml!)
 -   [We Don't Talk About Future](https://jrobsonjr.github.io/poems-with-choruses/we-dont-talk-about-future)
--   [Better Keep My Hopes](https://jrobsonjr.github.io/poems-with-choruses/better-keep-my-hopes)
 -   [Checkboxes](https://jrobsonjr.github.io/poems-with-choruses/checkboxes)
--   [If It Happens At All](https://jrobsonjr.github.io/poems-with-choruses/if-it-happens-at-all)
--   [Empty Corridors](https://jrobsonjr.github.io/poems-with-choruses/empty-corridors)
--   [Revoked Access](https://jrobsonjr.github.io/poems-with-choruses/revoked-access)
+
+### Quarantine Diaries
+
 -   [Solitaire](https://jrobsonjr.github.io/poems-with-choruses/solitaire)
 -   [New York Streets](https://jrobsonjr.github.io/poems-with-choruses/new-york-streets)
+-   [No Rest For The Repressed]()
 
 ## Blog posts
 
