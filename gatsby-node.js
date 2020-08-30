@@ -29,7 +29,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     paginate({
         createPage,
         items: result.data.posts.edges,
-        component: path.resolve('src/templates/index.js'),
+        component: path.resolve('src/templates/home.js'),
         itemsPerPage: 6,
         itemsPerFirstPage: 6,
         pathPrefix: ({ pageNumber }) => (pageNumber === 0 ? '/' : '/page'),
@@ -38,7 +38,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     result.data.posts.edges.forEach(({ node }) => {
         createPage({
             path: node.frontmatter.path,
-            component: path.resolve('src/components/BlogPostTemplate.js'),
+            component: path.resolve('src/templates/post.js'),
             context: {},
         });
     });

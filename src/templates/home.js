@@ -6,7 +6,7 @@ import SEO from '../components/SEO';
 import PostListItem from '../components/PostListItem';
 import CurrentObsession from '../components/CurrentObsession';
 
-import './index.css';
+import './home.css';
 
 const IndexPage = ({
     data: {
