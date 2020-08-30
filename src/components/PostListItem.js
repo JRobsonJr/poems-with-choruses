@@ -23,12 +23,11 @@ const PostListItem = ({ post }) => (
                         {post.frontmatter.title}
                     </Link>
                 </h1>
-                <p className="blog-post-list-item-description">{post.frontmatter.description}</p>
-                <Link
-                    to={post.frontmatter.path}>
-                    <div className="blog-post-list-item-link">
-                        Read
-                        </div>
+                <p className="blog-post-list-item-description">
+                    {post.frontmatter.description}
+                </p>
+                <Link to={post.frontmatter.path}>
+                    <div className="blog-post-list-item-link">Read</div>
                 </Link>
             </div>
         </div>
