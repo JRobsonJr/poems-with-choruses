@@ -23,11 +23,6 @@ footer {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-.footer-content {
-    position: relative;
-    padding: 1.5rem 1rem;
-}
-
 .list-inline {
     display: block;
 }

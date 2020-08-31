@@ -4,7 +4,9 @@ import { Link, graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import PostListItem from '../components/PostListItem';
-import CurrentObsession from '../components/CurrentObsession';
+import SongObsession from '../components/SongObsession';
+
+import obsessions from '../data/obsession-data';
 
 import './home.css';
 
@@ -17,6 +19,7 @@ const IndexPage = ({
     const posts = edges.map(edge => (
         <PostListItem key={edge.node.id} post={edge.node} />
     ));
+    const currentObsession = obsessions[obsessions.length - 1];
 
     return (
         <Layout>
@@ -28,7 +31,7 @@ const IndexPage = ({
                     nextPagePath={nextPagePath}
                 />
             </div>
-            <CurrentObsession />
+            <SongObsession current {...currentObsession} />
         </Layout>
     );
 };
