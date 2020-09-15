@@ -1,4 +1,4 @@
-.current-obssession-container {
+.song-obsession-container {
     background-color: #24223C;
     position: relative;
     background-image: url('./../images/lights.jpeg');
@@ -6,7 +6,8 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.current-obssession-container::before {
+
+.song-obsession-container::before {
     content: '';
     position: absolute;
     top: 0;
@@ -16,10 +17,15 @@
     opacity: .7;
 }
 
-.current-obssession-container:nth-of-type(2n + 1)::before {
+.song-obsession-container:nth-of-type(2n + 1)::before {
     background-color: #24223C;
 }
 
-.current-obssession-container:nth-of-type(2n)::before {
+.song-obsession-container:nth-of-type(2n)::before {
     background-color: #672646;
+}
+
+.song-obsession-content {
+    position: relative;
+    padding: 1.5rem 1rem;
 }

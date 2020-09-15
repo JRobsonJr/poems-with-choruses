@@ -1,10 +1,10 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 
-import Layout from './Layout';
-import SEO from './SEO';
+import Layout from '../components/Layout';
+import SEO from '../components/SEO';
 
-import './BlogPostTemplate.css';
+import './post.css';
 
 const BlogPostTemplate = ({ data }) => {
     const { markdownRemark } = data;

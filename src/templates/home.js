@@ -1,12 +1,15 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import PostListItem from '../components/PostListItem';
-import CurrentObsession from '../components/CurrentObsession';
+import SongObsession from '../components/SongObsession';
+import PageNavigation from '../components/PageNavigation';
 
-import './index.css';
+import obsessions from '../data/obsession-data';
+
+import './home.css';
 
 const IndexPage = ({
     data: {
@@ -17,6 +20,7 @@ const IndexPage = ({
     const posts = edges.map(edge => (
         <PostListItem key={edge.node.id} post={edge.node} />
     ));
+    const currentObsession = obsessions[obsessions.length - 1];
 
     return (
         <Layout>
@@ -28,25 +32,10 @@ const IndexPage = ({
                     nextPagePath={nextPagePath}
                 />
             </div>
-            <CurrentObsession />
+            <SongObsession current {...currentObsession} />
         </Layout>
     );
 };
-
-const PageNavigation = ({ previousPagePath, nextPagePath }) => (
-    <div className="page-navigation">
-        {previousPagePath && (
-            <Link to={previousPagePath}>
-                <div className="blog-post-list-item-link">Previous</div>
-            </Link>
-        )}
-        {nextPagePath && (
-            <Link to={nextPagePath}>
-                <div className="blog-post-list-item-link">Next</div>
-            </Link>
-        )}
-    </div>
-);
 
 export const pageQuery = graphql`
     query($skip: Int!, $limit: Int!) {
