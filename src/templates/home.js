@@ -1,10 +1,11 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import PostListItem from '../components/PostListItem';
 import SongObsession from '../components/SongObsession';
+import PageNavigation from '../components/PageNavigation';
 
 import obsessions from '../data/obsession-data';
 
@@ -35,21 +36,6 @@ const IndexPage = ({
         </Layout>
     );
 };
-
-const PageNavigation = ({ previousPagePath, nextPagePath }) => (
-    <div className="page-navigation">
-        {previousPagePath && (
-            <Link to={previousPagePath}>
-                <div className="blog-post-list-item-link">Previous</div>
-            </Link>
-        )}
-        {nextPagePath && (
-            <Link to={nextPagePath}>
-                <div className="blog-post-list-item-link">Next</div>
-            </Link>
-        )}
-    </div>
-);
 
 export const pageQuery = graphql`
     query($skip: Int!, $limit: Int!) {
