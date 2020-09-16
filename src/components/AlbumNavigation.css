@@ -1,0 +1,29 @@
+.album-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+}
+
+.album-section-title {
+  font-weight: bold;
+  margin-bottom: .1rem;
+}
+
+.album-track-title {
+  margin-bottom: 0;
+}
+
+.album-section .album-track-title:last-of-type {
+  margin-bottom: 1rem;
+}
+
+.album-nav {
+  padding: 2.5rem;
+  background-color: #0A070D10;
+  width: 100%;
+}
+
+.album-playlist-cta {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
