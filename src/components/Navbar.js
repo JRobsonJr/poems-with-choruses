@@ -1,19 +1,19 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import { Link } from 'gatsby-plugin-intl';
 
 import './Navbar.css';
 
-const Navbar = () => (
+const Navbar = ({ home, obsessionHistory }) => (
     <nav>
         <ul className="footer-link-list list-inline text-center text-light m-0">
             <li>
                 <Link className="footer-link" to="/">
-                    HOME
+                    {home}
                 </Link>
             </li>
             <li>
                 <Link className="footer-link" to="/obsessions">
-                    OBSESSION HISTORY
+                    {obsessionHistory}
                 </Link>
             </li>
         </ul>

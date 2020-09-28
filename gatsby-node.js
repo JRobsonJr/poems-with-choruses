@@ -19,7 +19,12 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
                 }
             }
             homePagePosts: allMarkdownRemark(
-                filter: { frontmatter: { path: { regex: "/.+(?<!pt)$/" }, display: { ne: false } } }
+                filter: {
+                    frontmatter: {
+                        path: { regex: "/.+(?<!pt)$/" }
+                        display: { ne: false }
+                    }
+                }
                 sort: { order: DESC, fields: [frontmatter___date] }
             ) {
                 edges {
@@ -34,7 +39,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
             }
         }
     `);
-    
+
     if (result.errors) {
         reporter.panicOnBuild('Error while running GraphQL query.');
         return;

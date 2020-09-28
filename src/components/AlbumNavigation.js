@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import { Link, FormattedMessage } from 'gatsby-plugin-intl';
 
 import './AlbumNavigation.css';
 
@@ -9,17 +9,18 @@ const AlbumNavigation = ({ album }) => (
             <i>{album.title}</i>
         </h3>
         <p className="album-track-title">
-            0. <Link to={album.prologueUrl}>Prologue</Link>
+            <Link to={album.prologueUrl}>
+                <FormattedMessage id="prologue" />
+            </Link>
         </p>
         {album.sections.map(section => (
             <AlbumSection section={section} />
         ))}
         <blockquote className="album-playlist-cta">
-            Check out the{' '}
+            <FormattedMessage id="playlist-cta" />:{' '}
             <a href={album.playlist.url}>
                 <i>{album.playlist.title}</i>
-            </a>{' '}
-            playlist!
+            </a>
         </blockquote>
     </div>
 );

@@ -31,7 +31,13 @@ header::before {
   font-style: italic;
 }
 
-.header-link, .footer-link {
+.header-link {
   color: white;
   text-decoration: none;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
 }

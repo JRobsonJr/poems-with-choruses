@@ -40,7 +40,12 @@ const IndexPage = ({
 export const pageQuery = graphql`
     query($skip: Int!, $limit: Int!) {
         posts: allMarkdownRemark(
-            filter: { frontmatter: { path: { regex: "/.+(?<!pt)$/" }, display: { ne: false } } }
+            filter: {
+                frontmatter: {
+                    path: { regex: "/.+(?<!pt)$/" }
+                    display: { ne: false }
+                }
+            }
             sort: { fields: [frontmatter___date], order: DESC }
             skip: $skip
             limit: $limit
