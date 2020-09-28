@@ -18,9 +18,23 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
                     }
                 }
             }
+            homePagePosts: allMarkdownRemark(
+                filter: { frontmatter: { path: { regex: "/.+(?<!pt)$/" }, display: { ne: false } } }
+                sort: { order: DESC, fields: [frontmatter___date] }
+            ) {
+                edges {
+                    node {
+                        frontmatter {
+                            path
+                            description
+                            imageUrl
+                        }
+                    }
+                }
+            }
         }
     `);
-
+    
     if (result.errors) {
         reporter.panicOnBuild('Error while running GraphQL query.');
         return;
@@ -28,7 +42,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
     paginate({
         createPage,
-        items: result.data.posts.edges,
+        items: result.data.homePagePosts.edges,
         component: path.resolve('src/templates/home.js'),
         itemsPerPage: 6,
         itemsPerFirstPage: 6,
