@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "author": "Robson Junior <jrobsonjr16@gmail.com>",
   "dependencies": {
+    "disqus-react": "^1.0.10",
     "gatsby": "^2.15.20",
     "gatsby-awesome-pagination": "^0.3.6",
     "gatsby-image": "^2.2.20",

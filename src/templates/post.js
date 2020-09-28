@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import { DiscussionEmbed } from 'disqus-react';
 
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
@@ -9,6 +10,10 @@ import './post.css';
 const BlogPostTemplate = ({ data }) => {
     const { markdownRemark } = data;
     const { frontmatter, html } = markdownRemark;
+    const disqusConfig = {
+        shortname: 'poemswithchoruses',
+        config: { identifier: frontmatter.path, title: frontmatter.title },
+    };
     return (
         <Layout>
             <SEO
@@ -26,6 +31,7 @@ const BlogPostTemplate = ({ data }) => {
                             className="blog-post-content"
                             dangerouslySetInnerHTML={{ __html: html }}
                         />
+                        <DiscussionEmbed {...disqusConfig} />
                     </div>
                 </div>
             </div>
