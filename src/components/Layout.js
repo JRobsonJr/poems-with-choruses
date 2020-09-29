@@ -14,12 +14,7 @@ const Layout = ({ children }) => {
     return (
         <>
             <Header siteTitle={intl.formatMessage({ id: 'title' })} />
-            <Navbar
-                obsessionHistory={intl.formatMessage({
-                    id: 'obsession-history',
-                })}
-                home={intl.formatMessage({ id: 'home' })}
-            />
+            <Navbar />
             <main>{children}</main>
             <Footer />
         </>

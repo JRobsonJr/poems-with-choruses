@@ -12,7 +12,9 @@ const Header = ({ siteTitle }) => (
                 </Link>
             </h1>
             <p className="header-blog-description text-center text-light m-0">
-                <i><FormattedMessage id="by" /> Robson Junior</i>
+                <i>
+                    <FormattedMessage id="by" /> Robson Junior
+                </i>
             </p>
         </div>
     </header>

@@ -16,12 +16,12 @@ const AlbumNavigation = ({ album }) => (
         {album.sections.map(section => (
             <AlbumSection section={section} />
         ))}
-        <blockquote className="album-playlist-cta">
+        <div className="album-playlist-cta">
             <FormattedMessage id="playlist-cta" />:{' '}
             <a href={album.playlist.url}>
                 <i>{album.playlist.title}</i>
             </a>
-        </blockquote>
+        </div>
     </div>
 );
 
