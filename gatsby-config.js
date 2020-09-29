@@ -16,14 +16,14 @@ module.exports = {
                         variants: [`400`, `400i`, `700`, `700i`],
                     },
                     {
-                        family: `Playfair Display`,
-                        subsets: [`latin`, `latin-ext`],
-                        variants: [`700`, `700i`],
-                    },
-                    {
                         family: `Nunito Sans`,
                         subsets: [`latin`, `latin-ext`],
                         variants: [`400`, `400i`],
+                    },
+                    {
+                        family: `Inter`,
+                        subsets: [`latin`, `latin-ext`],
+                        variants: [`400`, `400i`, `700`, `700i`],
                     },
                 ],
             },

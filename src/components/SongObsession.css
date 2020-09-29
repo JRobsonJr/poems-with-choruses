@@ -25,6 +25,10 @@
     background-color: #672646;
 }
 
+.song-obsession-title {
+    margin-bottom: 1rem;
+}
+
 .song-obsession-content {
     position: relative;
     padding: 1.5rem 1rem;

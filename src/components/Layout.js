@@ -13,10 +13,7 @@ const Layout = ({ children }) => {
 
     return (
         <>
-            <Header
-                siteTitle={intl.formatMessage({ id: 'title' })}
-                siteDescription={intl.formatMessage({ id: 'description' })}
-            />
+            <Header siteTitle={intl.formatMessage({ id: 'title' })} />
             <Navbar
                 obsessionHistory={intl.formatMessage({
                     id: 'obsession-history',

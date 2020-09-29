@@ -38,12 +38,12 @@
   }
 }
 
-h1 {
-  font-family: 'Roboto', serif;
+i, em {
+  font-family: 'Libre Baskerville', serif;
 }
 
 html {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Inter', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -51,7 +51,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(207, 204, 186, 0.2);
+  background-color: #fefefe;
 }
 article,
 aside,

@@ -13,7 +13,7 @@ const SongObsession = ({
 }) => (
     <div className="song-obsession-container">
         <div className="song-obsession-content">
-            <h2 className="text-light text-center">
+            <h2 className="song-obsession-title text-light text-center">
                 {current ? (
                     <FormattedMessage id="current-obsession" />
                 ) : (

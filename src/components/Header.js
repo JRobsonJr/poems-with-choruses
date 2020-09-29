@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from 'gatsby-plugin-intl';
+import { Link, FormattedMessage } from 'gatsby-plugin-intl';
 
 import './Header.css';
 
-const Header = ({ siteTitle, siteDescription }) => (
+const Header = ({ siteTitle }) => (
     <header>
         <div className="header-content">
             <h1 className="header-blog-title text-center">
@@ -12,7 +12,7 @@ const Header = ({ siteTitle, siteDescription }) => (
                 </Link>
             </h1>
             <p className="header-blog-description text-center text-light m-0">
-                {siteDescription}
+                <i><FormattedMessage id="by" /> Robson Junior</i>
             </p>
         </div>
     </header>

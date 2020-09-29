@@ -22,11 +22,11 @@ const BlogPostTemplate = ({ data }) => {
                 imageUrl={frontmatter.imageUrl}
             />
             <div className="layout layout-post">
-                <BlogPostImageCover imageUrl={frontmatter.imageUrl} />
                 <div className="blog-post-container">
                     <div className="blog-post">
                         <p className="blog-post-date">{frontmatter.date}</p>
-                        <h1>{frontmatter.title}</h1>
+                        <h1 className="blog-post-title">{frontmatter.title}</h1>
+                        <BlogPostImageCover imageUrl={frontmatter.imageUrl} />
                         <div
                             className="blog-post-content"
                             dangerouslySetInnerHTML={{ __html: html }}
