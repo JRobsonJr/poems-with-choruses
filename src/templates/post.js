@@ -10,6 +10,7 @@ import './post.css';
 
 const BlogPostTemplate = ({ data }) => {
     const { markdownRemark } = data;
+    if (!markdownRemark) return null;
     const { frontmatter, html } = markdownRemark;
     const disqusConfig = {
         shortname: 'poemswithchoruses',

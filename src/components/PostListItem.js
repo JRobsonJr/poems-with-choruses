@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link, FormattedMessage, FormattedDate } from 'gatsby-plugin-intl';
+import { Link } from 'gatsby';
+import { FormattedMessage, FormattedDate } from 'gatsby-plugin-intl';
 
 import './PostListItem.css';
 

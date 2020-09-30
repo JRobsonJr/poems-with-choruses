@@ -1,0 +1,10 @@
+.not-found-page {
+  min-height: 75vh;
+  display: flex;
+  padding: 2.5rem;
+}
+
+.not-found-text {
+  font-size: 5rem;
+  margin: auto;
+}
