@@ -87,5 +87,6 @@ module.exports = {
                 defaultLanguage: `en`,
             },
         },
+        'gatsby-plugin-remove-trailing-slashes',
     ],
 };

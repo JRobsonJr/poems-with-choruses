@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import { FormattedDate } from 'gatsby-plugin-intl';
 import { DiscussionEmbed } from 'disqus-react';
 
 import Layout from '../components/Layout';
@@ -24,7 +25,14 @@ const BlogPostTemplate = ({ data }) => {
             <div className="layout layout-post">
                 <div className="blog-post-container">
                     <div className="blog-post">
-                        <p className="blog-post-date">{frontmatter.date}</p>
+                        <p className="blog-post-date">
+                            <FormattedDate
+                                value={frontmatter.date}
+                                year="numeric"
+                                month="long"
+                                day="2-digit"
+                            />
+                        </p>
                         <h1 className="blog-post-title">{frontmatter.title}</h1>
                         <BlogPostImageCover imageUrl={frontmatter.imageUrl} />
                         <div
@@ -57,6 +65,7 @@ export const pageQuery = graphql`
                 title
                 description
                 imageUrl
+                lang
             }
         }
     }

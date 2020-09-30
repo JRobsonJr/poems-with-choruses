@@ -14,9 +14,12 @@ const Navbar = () => {
         <nav>
             <ul className="footer-link-list list-inline text-center text-light m-0">
                 <li>
-                    <IntlLink className="footer-link" to="/">
+                    <Link
+                        className="footer-link"
+                        to={intl.locale === 'pt' ? '/pt/inicio' : '/'}
+                    >
                         <FormattedMessage id="home" />
-                    </IntlLink>
+                    </Link>
                 </li>
                 <li>
                     <IntlLink className="footer-link" to="/obsessions">
@@ -26,7 +29,7 @@ const Navbar = () => {
                 <li>
                     <Link
                         className="footer-link"
-                        to={intl.locale === 'pt' ? '/' : '/pt'}
+                        to={intl.locale === 'pt' ? '/' : '/pt/inicio'}
                     >
                         <FormattedMessage id="locale-switcher" />
                     </Link>
