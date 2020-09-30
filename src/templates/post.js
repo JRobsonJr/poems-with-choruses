@@ -14,7 +14,10 @@ const BlogPostTemplate = ({ data }) => {
     const { frontmatter, html } = markdownRemark;
     const disqusConfig = {
         shortname: 'poemswithchoruses',
-        config: { identifier: frontmatter.path, title: frontmatter.title },
+        config: {
+            identifier: frontmatter.path.split('/').pop(),
+            title: frontmatter.title,
+        },
     };
     return (
         <Layout>
