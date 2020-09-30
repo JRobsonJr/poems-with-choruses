@@ -1,12 +1,11 @@
 ---
-path: '/21-lessons-pt'
+lang: pt
+path: '/pt/21-lessons'
 date: '2020-03-16'
 title: '21 lições antes dos 21'
 description: 'Das minhas playlists para a minha vida.'
 imageUrl: 'https://i.imgur.com/MMu01P0.jpg'
 ---
-
-> [English version: 21 lessons before 21](21-lessons)
 
 Cerca de um ano atrás, Taylor Swift compartilhou [30 coisas que ela aprendeu antes de fazer 30 anos](https://www.elle.com/culture/celebrities/a26628467/taylor-swift-30th-birthday-lessons/). Naquela época eu estava prestes a celebrar meu aniversário de vinte anos, então era a oportunidade perfeita para escrever minha versão desse artigo... Só que não terminei a tempo. Agora que estou fazendo 21, que não é tão simbólico quanto 20 e 30 parecem ser, de repente senti o desejo de concluir essa tarefa. Na minha versão, apresento 21 músicas com lições que estou tentando ativamente seguir na minha vida, não coisas que eu estou praticando completamente. Talvez "21 objetivos" possa ser mais acertado do que dizer que são lições que eu já aprendi.
 
