@@ -71,6 +71,14 @@ const obsessions = [
         title: 'my tears ricochet',
         videoUrl: 'https://www.youtube.com/embed/OWbDJFtHl3w',
     },
+    {
+        dateInsertion: 'October 2, 2020',
+        lyricsExcerpt:
+            'Tu me amaste primeiro e eu morri de amor por ti hoje mesmo.',
+        songwriters: 'Rizzih',
+        title: 'Amemos',
+        videoUrl: 'https://www.youtube.com/embed/SAAwZTZCtGA',
+    },
 ];
 
 export default obsessions;
