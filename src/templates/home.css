@@ -1,15 +1,3 @@
-.blog-post-list-item-title {
-    color: #672646;
-    text-decoration: none;
-    margin-bottom: .75rem;
-}
-
-.blog-post-list-item-date {
-    font-family: 'Nunito Sans', sans-serif;
-    margin-bottom: .25rem;
-    font-size: .9rem;
-}
-
 .text-light {
     color: white;
 }
@@ -28,7 +16,7 @@
 
 a {
     text-decoration: none;
-    color: #672646;
+    color: #6D0139;
     font-weight: bold;
 }
 

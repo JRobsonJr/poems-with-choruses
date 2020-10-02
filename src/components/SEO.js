@@ -1,24 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import { useStaticQuery, graphql } from 'gatsby';
+import { useIntl } from 'gatsby-plugin-intl';
 
-const SEO = ({ description, lang, meta, title, imageUrl }) => {
-    const { site } = useStaticQuery(
-        graphql`
-            query {
-                site {
-                    siteMetadata {
-                        title
-                        description
-                        author
-                    }
-                }
-            }
-        `
-    );
-
-    const metaDescription = description || site.siteMetadata.description;
+const SEO = ({ description, meta, title, imageUrl }) => {
+    const intl = useIntl();
+    const metaDescription =
+        description || intl.formatMessage({ id: 'description' });
     const metadata = [
         {
             name: `description`,
@@ -46,7 +34,7 @@ const SEO = ({ description, lang, meta, title, imageUrl }) => {
         },
         {
             name: `twitter:creator`,
-            content: site.siteMetadata.author,
+            content: intl.formatMessage({ id: 'author' }),
         },
         {
             name: `twitter:title`,
@@ -61,17 +49,16 @@ const SEO = ({ description, lang, meta, title, imageUrl }) => {
     return (
         <Helmet
             htmlAttributes={{
-                lang,
+                lang: intl.locale ? intl.locale : 'en',
             }}
             title={title}
-            titleTemplate={`%s | ${site.siteMetadata.title}`}
+            titleTemplate={`%s | ${intl.formatMessage({ id: 'title' })}`}
             meta={metadata.concat(meta)}
         />
     );
 };
 
 SEO.defaultProps = {
-    lang: `en`,
     meta: [],
     description: ``,
     imageUrl: 'https://i.imgur.com/CQRecUx.jpg',
@@ -79,7 +66,6 @@ SEO.defaultProps = {
 
 SEO.propTypes = {
     description: PropTypes.string,
-    lang: PropTypes.string,
     meta: PropTypes.arrayOf(PropTypes.object),
     title: PropTypes.string.isRequired,
 };

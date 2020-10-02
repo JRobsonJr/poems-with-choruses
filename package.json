@@ -4,10 +4,12 @@
   "version": "0.0.1",
   "author": "Robson Junior <jrobsonjr16@gmail.com>",
   "dependencies": {
+    "disqus-react": "^1.0.10",
     "gatsby": "^2.15.20",
     "gatsby-awesome-pagination": "^0.3.6",
     "gatsby-image": "^2.2.20",
     "gatsby-plugin-gtag": "^1.0.13",
+    "gatsby-plugin-intl": "^0.3.3",
     "gatsby-plugin-manifest": "^2.2.18",
     "gatsby-plugin-offline": "^3.0.8",
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
@@ -25,6 +27,7 @@
     "sharp": "^0.23.0"
   },
   "devDependencies": {
+    "gatsby-plugin-remove-trailing-slashes": "^2.3.13",
     "gh-pages": "^2.1.1",
     "prettier": "^1.18.2"
   },

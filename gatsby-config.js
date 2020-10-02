@@ -16,14 +16,14 @@ module.exports = {
                         variants: [`400`, `400i`, `700`, `700i`],
                     },
                     {
-                        family: `Playfair Display`,
-                        subsets: [`latin`, `latin-ext`],
-                        variants: [`700`, `700i`],
-                    },
-                    {
                         family: `Nunito Sans`,
                         subsets: [`latin`, `latin-ext`],
                         variants: [`400`, `400i`],
+                    },
+                    {
+                        family: `Inter`,
+                        subsets: [`latin`, `latin-ext`],
+                        variants: [`400`, `400i`, `700`, `700i`],
                     },
                 ],
             },
@@ -79,5 +79,14 @@ module.exports = {
                 anonymize: true,
             },
         },
+        {
+            resolve: `gatsby-plugin-intl`,
+            options: {
+                path: `${__dirname}/src/intl`,
+                languages: [`en`, `pt`],
+                defaultLanguage: `en`,
+            },
+        },
+        'gatsby-plugin-remove-trailing-slashes',
     ],
 };

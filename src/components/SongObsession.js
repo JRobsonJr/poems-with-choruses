@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormattedDate, FormattedMessage } from 'gatsby-plugin-intl';
 
 import './SongObsession.css';
 
@@ -12,8 +13,17 @@ const SongObsession = ({
 }) => (
     <div className="song-obsession-container">
         <div className="song-obsession-content">
-            <h2 className="text-light text-center">
-                {current ? 'Current obsession' : dateInsertion}
+            <h2 className="song-obsession-title text-light text-center">
+                {current ? (
+                    <FormattedMessage id="current-obsession" />
+                ) : (
+                    <FormattedDate
+                        value={dateInsertion}
+                        year="numeric"
+                        month="long"
+                        day="2-digit"
+                    />
+                )}
             </h2>
             <p className="text-light text-center m-0">
                 <i>{lyricsExcerpt}</i>

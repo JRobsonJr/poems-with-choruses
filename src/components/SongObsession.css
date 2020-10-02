@@ -22,7 +22,11 @@
 }
 
 .song-obsession-container:nth-of-type(2n)::before {
-    background-color: #672646;
+    background-color: #6D0139;
+}
+
+.song-obsession-title {
+    margin-bottom: 1rem;
 }
 
 .song-obsession-content {

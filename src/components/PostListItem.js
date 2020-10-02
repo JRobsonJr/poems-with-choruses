@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { FormattedMessage, FormattedDate } from 'gatsby-plugin-intl';
 
 import './PostListItem.css';
 
@@ -12,7 +13,12 @@ const PostListItem = ({ post }) => (
         </div>
         <div className={post.frontmatter.imageUrl ? 'w-100-nl w-75' : 'w-100'}>
             <div className="blog-post-list-item-header">
-                {post.frontmatter.date}
+                <FormattedDate
+                    value={post.frontmatter.date}
+                    year="numeric"
+                    month="long"
+                    day="2-digit"
+                />
             </div>
             <div className="layout-container">
                 <h1 className="blog-post-list-item-title">
@@ -27,7 +33,9 @@ const PostListItem = ({ post }) => (
                     {post.frontmatter.description}
                 </p>
                 <Link to={post.frontmatter.path}>
-                    <div className="blog-post-list-item-link">Read</div>
+                    <div className="blog-post-list-item-link">
+                        <FormattedMessage id="read" />
+                    </div>
                 </Link>
             </div>
         </div>

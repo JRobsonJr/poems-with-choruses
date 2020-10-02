@@ -6,21 +6,33 @@
   background-color: rgb(207, 204, 186, 0.3);
   padding: .5rem 1rem;
   text-transform: uppercase;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .blog-post-list-item-link {
-  background-color: rgba(104, 39, 71, 0.15);
+  border: 1px solid lightgray;
   padding: .5rem 1.5rem;
   text-transform: uppercase;
-  font-family: 'Nunito Sans', sans-serif;
   width: fit-content;
+  transition: background-color .5s;
+}
+
+.blog-post-list-item-link:hover {
+  background-color: rgba(104, 39, 71, 0.15);
 }
 
 .blog-post-list-item {
-  background-color: #fefefe;
+  border: 1px solid rgb(207, 204, 186, 0.3);
   display: flex;
   margin-top: 1.5rem;
+}
+
+.blog-post-list-item-title {
+  color: #6D0139;
+  text-decoration: none;
+  margin-bottom: .75rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
 }
 
 .blog-post-list-item-description {

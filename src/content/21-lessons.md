@@ -4,9 +4,8 @@ date: '2020-03-16'
 title: '21 lessons before 21'
 description: 'From my playlists to my life.'
 imageUrl: 'https://i.imgur.com/MMu01P0.jpg'
+display: true
 ---
-
-> [Versão em português: 21 lições antes dos 21](21-lessons-pt)
 
 Around a year ago, Taylor Swift shared [30 things she learned before turning 30](https://www.elle.com/culture/celebrities/a26628467/taylor-swift-30th-birthday-lessons/). Back then, I was about to celebrate my twentieth birthday, so it was the perfect opportunity to write my version of that... Except I didn't finish it in time. Now that I'm turning 21, which is not as symbolic as either 20 or 30 seems to be, I suddenly felt the urge to complete this task for the year. Here's my twist: I present 21 songs with lessons that I am actively trying to pursue in life, not things that I'm fully practicing yet. So maybe "21 goals" might be more on point than saying these are lessons I've learned.
 

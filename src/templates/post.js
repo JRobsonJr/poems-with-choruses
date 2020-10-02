@@ -1,5 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import { FormattedDate } from 'gatsby-plugin-intl';
+import { DiscussionEmbed } from 'disqus-react';
 
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
@@ -8,7 +10,15 @@ import './post.css';
 
 const BlogPostTemplate = ({ data }) => {
     const { markdownRemark } = data;
+    if (!markdownRemark) return null;
     const { frontmatter, html } = markdownRemark;
+    const disqusConfig = {
+        shortname: 'poemswithchoruses',
+        config: {
+            identifier: frontmatter.path.split('/').pop(),
+            title: frontmatter.title,
+        },
+    };
     return (
         <Layout>
             <SEO
@@ -17,15 +27,23 @@ const BlogPostTemplate = ({ data }) => {
                 imageUrl={frontmatter.imageUrl}
             />
             <div className="layout layout-post">
-                <BlogPostImageCover imageUrl={frontmatter.imageUrl} />
                 <div className="blog-post-container">
                     <div className="blog-post">
-                        <p className="blog-post-date">{frontmatter.date}</p>
-                        <h1>{frontmatter.title}</h1>
+                        <p className="blog-post-date">
+                            <FormattedDate
+                                value={frontmatter.date}
+                                year="numeric"
+                                month="long"
+                                day="2-digit"
+                            />
+                        </p>
+                        <h1 className="blog-post-title">{frontmatter.title}</h1>
+                        <BlogPostImageCover imageUrl={frontmatter.imageUrl} />
                         <div
                             className="blog-post-content"
                             dangerouslySetInnerHTML={{ __html: html }}
                         />
+                        <DiscussionEmbed {...disqusConfig} />
                     </div>
                 </div>
             </div>
@@ -51,6 +69,7 @@ export const pageQuery = graphql`
                 title
                 description
                 imageUrl
+                lang
             }
         }
     }

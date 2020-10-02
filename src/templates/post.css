@@ -8,6 +8,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 1.5rem;
 }
 
 @media (max-width: 750px) {
@@ -21,16 +22,25 @@
 }
 
 .blog-post-date {
-    background-color: rgba(207, 204, 186, 0.5);
-    font-family: 'Nunito Sans', sans-serif;
+    border: 1px solid darkgray;
+    font-family: 'Inter', sans-serif;
     text-transform: uppercase;
-    margin-bottom: .5rem;
     width: fit-content;
-    padding: .1rem .5rem;
+    padding: .25rem .5rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-post-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
 }
 
 .post-title {
-    color: #672646;
+    color: #6D0139;
 }
 
 p {
