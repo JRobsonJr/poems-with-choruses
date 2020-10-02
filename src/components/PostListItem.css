@@ -14,11 +14,11 @@
   padding: .5rem 1.5rem;
   text-transform: uppercase;
   width: fit-content;
-  transition: background-color .5s;
+  transition: background-color .2s;
 }
 
 .blog-post-list-item-link:hover {
-  background-color: rgba(104, 39, 71, 0.15);
+  background-color: rgba(104, 39, 71, 0.05);
 }
 
 .blog-post-list-item {

@@ -6,7 +6,9 @@ import './AlbumNavigation.css';
 const AlbumNavigation = ({ album }) => (
     <div className="album-nav text-center">
         <h3 className="album-title">
-            <i>{album.title}</i>
+            <i>
+                <FormattedMessage id={album.id} />
+            </i>
         </h3>
         <p className="album-track-title">
             <Link to={album.prologueUrl}>
@@ -28,11 +30,17 @@ const AlbumNavigation = ({ album }) => (
 const AlbumSection = ({ section }) => (
     <div className="album-section">
         <p className="album-section-title">
-            <i>{section.title}</i>
+            <i>
+                <FormattedMessage id={section.id} />
+            </i>
         </p>
         {section.tracks.map(track => (
             <p className="album-track-title">
-                {track.number}. <Link to={track.link}>{track.title}</Link>
+                {console.log(track.number)}
+                {track.number}.{' '}
+                <Link to={track.link}>
+                    <FormattedMessage id={track.id} />
+                </Link>
             </p>
         ))}
     </div>

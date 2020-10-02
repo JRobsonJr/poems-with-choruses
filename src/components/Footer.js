@@ -23,6 +23,14 @@ const Footer = () => (
                     GITHUB
                 </a>
             </li>
+            <li>
+                <a
+                    className="footer-link"
+                    href="https://instagram.com/poemswithchoruses"
+                >
+                    INSTAGRAM
+                </a>
+            </li>
         </ul>
     </footer>
 );
