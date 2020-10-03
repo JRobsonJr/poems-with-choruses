@@ -12,5 +12,26 @@
     "playlist-cta": "Confira a playlist inspirada pelo álbum",
     "by": "por",
     "locale-switcher": "🇬🇧",
-    "not-found": "Página não encontrada"
+    "not-found": "Página não encontrada",
+    "concurrent-access": {
+        "title": "Acesso Concorrente",
+        "side-a": "Lado A: Condições de Corrida",
+        "side-b": "Lado B: Inanição",
+        "side-c": "Lado C: Não Preempção",
+        "track-1": "Destino",
+        "track-2": "Basta",
+        "track-3": "Merecemos",
+        "track-4": "Corredores Vazios",
+        "track-5": "Um Alívio Inesperado",
+        "track-6": "Sobrescrita",
+        "track-7": "Se É Que Acontece",
+        "track-8": "Vá Até Mim",
+        "track-9": "VNQMA!",
+        "track-10": "Melhor Manter As Esperanças",
+        "track-11": "Caso Um Dia Escute",
+        "track-12": "Estamos Nos Entendendo",
+        "track-13": "Volta",
+        "track-14": "...Não?",
+        "track-15": "Acesso Revogado"
+    }
 }

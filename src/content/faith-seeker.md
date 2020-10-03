@@ -3,6 +3,9 @@ path: '/faith-seeker'
 date: '2019-10-11'
 title: 'Faith-Seeker'
 description: "Believe me if you can, I know I'm biased."
+series: Concurrent Access
+prev: /concurrent-access-prologue
+next: /all-that-takes
 ---
 
 Do you know the feeling of when you learn a new word and suddenly everybody starts using it?

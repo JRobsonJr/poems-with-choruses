@@ -2,26 +2,25 @@
 
 _Poems With Choruses_ is a personal project. I write as an emotional release and store the final versions here so that I'm not tempted to rewrite them over and over. [The first post](https://jrobsonjr.github.io/poems-with-choruses/self-titled) might be more enlightening as to the full purpose of this.
 
-If you got here somehow, feel free to read! But I'll never really know you were here since I've yet to implement features related to interactions. What a bummer, I know...
-
 ## The Poems :sparkles:
 
-### CA :eyes:
+### Concurrent Access :eyes:
 
+0. [Prologue](https://jrobsonjr.github.io/poems-with-choruses/concurrent-access-prologue)
 1. [Faith-Seeker](https://jrobsonjr.github.io/poems-with-choruses/faith-seeker)
-2. ???
-3. ???
+2. [All That Takes](https://jrobsonjr.github.io/poems-with-choruses/all-that-takes)
+3. [Worthy](https://jrobsonjr.github.io/poems-with-choruses/worthy)
 4. [Empty Corridors](https://jrobsonjr.github.io/poems-with-choruses/empty-corridors)
-5. ???
-6. ???
+5. [Say We Dit It (The Comfort Out of the Blue)](https://jrobsonjr.github.io/poems-with-choruses/say-we-did-it)
+6. [Overwrite](https://jrobsonjr.github.io/poems-with-choruses/overwrite)
 7. [If It Happens At All](https://jrobsonjr.github.io/poems-with-choruses/if-it-happens-at-all)
-8. ???
+8. [Go-To Me](https://jrobsonjr.github.io/poems-with-choruses/go-to-me)
 9. [YDWML!](https://jrobsonjr.github.io/poems-with-choruses/ydwml!)
 10. [Better Keep My Hopes](https://jrobsonjr.github.io/poems-with-choruses/better-keep-my-hopes)
 11. [In Case You Ever Listen](https://jrobsonjr.github.io/poems-with-choruses/in-case-you-ever-listen)
-12. ???
-13. ???
-14. ???
+12. [Now We're Talking](https://jrobsonjr.github.io/poems-with-choruses/now-were-talking)
+13. [Need You Back](https://jrobsonjr.github.io/poems-with-choruses/need-you-back)
+14. [...Don't You?](https://jrobsonjr.github.io/poems-with-choruses/dont-you)
 15. [Revoked Access](https://jrobsonjr.github.io/poems-with-choruses/revoked-access)
 
 ### Standalone

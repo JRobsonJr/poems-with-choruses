@@ -4,6 +4,8 @@ date: '2020-01-29'
 title: 'Revoked Access'
 description: 'One day I made the choice.'
 imageUrl: 'https://i.imgur.com/Lr42IgA.jpg'
+series: Concurrent Access
+prev: /dont-you
 ---
 
 Here's a well-known mantra: love yourself before you love someone else. Simple words, right? But it's hard to love someone who sabotages all your real moments. The person who can't focus on losing the extra weight. The one that doesn't believe you're ever worthy of being loved.

@@ -13,19 +13,13 @@ import obsessions from '../data/obsession-data';
 import './home.css';
 
 const IndexPage = ({
-    data: {
-        posts: { edges },
-    },
+    data: { ptPosts, enPosts },
     pageContext: { previousPagePath, nextPagePath },
 }) => {
     const { locale } = useIntl();
-    const posts = edges
-        .filter(edge =>
-            locale === 'pt'
-                ? edge.node.frontmatter.lang === 'pt'
-                : edge.node.frontmatter.lang !== 'pt'
-        )
-        .map(edge => <PostListItem key={edge.node.id} post={edge.node} />);
+    const posts = (locale === 'pt' ? ptPosts : enPosts).edges.map(edge => (
+        <PostListItem key={edge.node.id} post={edge.node} />
+    ));
     const currentObsession = obsessions[obsessions.length - 1];
     return (
         <Layout>
@@ -44,8 +38,33 @@ const IndexPage = ({
 
 export const pageQuery = graphql`
     query($skip: Int!, $limit: Int!) {
-        posts: allMarkdownRemark(
-            filter: { frontmatter: { display: { ne: false } } }
+        enPosts: allMarkdownRemark(
+            filter: {
+                frontmatter: { display: { ne: false }, lang: { ne: "pt" } }
+            }
+            sort: { fields: [frontmatter___date], order: DESC }
+            skip: $skip
+            limit: $limit
+        ) {
+            edges {
+                node {
+                    id
+                    excerpt(pruneLength: 250)
+                    frontmatter {
+                        date(formatString: "MMMM DD, YYYY")
+                        path
+                        title
+                        description
+                        imageUrl
+                        lang
+                    }
+                }
+            }
+        }
+        ptPosts: allMarkdownRemark(
+            filter: {
+                frontmatter: { display: { ne: false }, lang: { eq: "pt" } }
+            }
             sort: { fields: [frontmatter___date], order: DESC }
             skip: $skip
             limit: $limit

@@ -4,6 +4,9 @@ date: '2019-11-19'
 title: 'Better Keep My Hopes'
 description: '...down.'
 imageUrl: 'https://i.imgur.com/TSfr4lQ.jpg'
+series: Concurrent Access
+prev: /ydwml!
+next: /in-case-you-ever-listen
 ---
 
 I've read a lot about how repetition is a magic element in songwriting, but it's hard to tell if you're overdoing it. Trying to diversify what I'm writing, I end up getting stuck with a lot of wordy pieces that wouldn't fit a melody if I begged them.
