@@ -36,7 +36,6 @@ const AlbumSection = ({ section }) => (
         </p>
         {section.tracks.map(track => (
             <p className="album-track-title">
-                {console.log(track.number)}
                 {track.number}.{' '}
                 <Link to={track.link}>
                     <FormattedMessage id={track.id} />

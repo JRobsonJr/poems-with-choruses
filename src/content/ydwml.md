@@ -4,6 +4,9 @@ date: '2019-10-24'
 title: 'YDWML!'
 description: 'Not healthy for me, not healthy for you if you knew.'
 imageUrl: 'https://i.imgur.com/FyKiLJr.jpg'
+series: Concurrent Access
+prev: /go-to-me
+next: /better-keep-my-hopes
 ---
 
 Convincing yourself that some things wouldn't work out is hard. I wrote this one in an attempt to believe it, hiding the predictable title choice behind an acronym.
@@ -36,7 +39,7 @@ Convincing yourself that some things wouldn't work out is hard. I wrote this one
 > By now I should be done seeking approval \
 > Almost at the end of the line \
 > And these feelings that I can’t define \
-> Trapping me up, tighteningly brutal
+> Trapping me up, tightening, brutal
 >
 > But I can’t force down the beating \
 > And I’ve been dreaming of \

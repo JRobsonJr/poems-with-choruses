@@ -4,6 +4,9 @@ date: '2019-10-16'
 title: 'In Case You Ever Listen'
 description: "My mind goes as far as that and it doesn't get back as soon as you do."
 imageUrl: 'https://i.imgur.com/fAF5Hjr.jpg'
+series: Concurrent Access
+prev: /better-keep-my-hopes
+next: /now-were-talking
 ---
 
 I've tried many approaches when it comes to writing, but one method that I love is coming up with a title first.

@@ -4,6 +4,9 @@ date: '2019-12-14'
 title: 'If It Happens At All'
 description: "Here's to still hoping a bit."
 imageUrl: 'https://i.imgur.com/KGnt3YW.jpg'
+series: Concurrent Access
+prev: /overwrite
+next: /go-to-me
 ---
 
 I never imagined the most embarrassing moment of my year would be reading a poem out loud because up to that moment, I never thought of releasing them to the world just yet.
@@ -34,7 +37,7 @@ I like thinking that if someone released this as an actual song, it'd have been 
 > There’s something in simple daily living around you \
 > Secretly making our paths collide \
 > I’ll find a reason to bother you through the day \
-> Twisting fate, making it all mine \
+> Twisting fate, making it all mine
 >
 > Have you ever smiled at just the thought of me? \
 > It happens to me all the time \

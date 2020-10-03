@@ -4,11 +4,12 @@ date: '2019-12-30'
 title: 'Empty Corridors'
 description: 'Frustration when I realized I was counting.'
 imageUrl: 'https://i.imgur.com/m4zII6N.jpg'
+series: Concurrent Access
+prev: /worthy
+next: /say-we-did-it
 ---
 
 Sometimes I can't find a way to write concisely and coherently, but when I run out of ideas, I can always trust my thought flow to write whatever comes to mind and fight writer's block. Sometimes it ends up being the same thing over and over, and sometimes I end up writing a draft for _Empty Corridors_. And the rough draft can linger a lot before it ends up being something I'm proud of, but after a few separate days in time, the result paints a picture of moments in my past that I both cherish and remember painfully.
-
-Maybe this is out of the purpose of the blog, as there's not an actual chorus? But here's the last post for 2019.
 
 > **_Empty Corridors_**
 >
