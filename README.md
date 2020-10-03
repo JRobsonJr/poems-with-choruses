@@ -11,7 +11,7 @@ _Poems With Choruses_ is a personal project. I write as an emotional release and
 2. [All That Takes](https://jrobsonjr.github.io/poems-with-choruses/all-that-takes)
 3. [Worthy](https://jrobsonjr.github.io/poems-with-choruses/worthy)
 4. [Empty Corridors](https://jrobsonjr.github.io/poems-with-choruses/empty-corridors)
-5. [Say We Dit It (The Comfort Out of the Blue)](https://jrobsonjr.github.io/poems-with-choruses/say-we-did-it)
+5. [Say We Did It (The Comfort Out of the Blue)](https://jrobsonjr.github.io/poems-with-choruses/say-we-did-it)
 6. [Overwrite](https://jrobsonjr.github.io/poems-with-choruses/overwrite)
 7. [If It Happens At All](https://jrobsonjr.github.io/poems-with-choruses/if-it-happens-at-all)
 8. [Go-To Me](https://jrobsonjr.github.io/poems-with-choruses/go-to-me)
